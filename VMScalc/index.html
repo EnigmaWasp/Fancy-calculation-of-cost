@@ -1,0 +1,582 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<base  />
+	<title>Конфигуратор окна - LUX</title>
+	<link rel="stylesheet" href="templates/css/jquery.fancybox.css" />
+	<meta name="keywords"		lang="ru" content="Meta KeyWords Base" />
+	<meta name="description"	lang="ru" content="Meta Description Base" />
+	<meta name = "format-detection" content = "telephone=no" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta name="viewport" content="width=1280">
+	<link type="text/css" rel="stylesheet" href="templates/css/styles.less-1352812732.css" />
+	<link type="text/css" rel="stylesheet" href="templates/css/ver2.less-1345553457.css" />
+	
+	<script src="templates/js/libs/modernizr-2.5.3.min.js"></script>
+	<script src="ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="templates/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+	<script src="templates/js/libs/jquery.form.js"></script>
+	<!-- Minfin.com.ua nbu informer 100x42 yellow-->
+
+	<!-- Классы слоёв стекла -->
+
+	<script>
+		function hiddenShow() {
+			if (document.getElementById("s1").style.display == "none")
+			{
+				document.getElementById("s1").style.display  = "inline";
+			} else {
+				document.getElementById("s1").style.display  = "none";
+			}
+		}
+		function hide() {
+			document.getElementById("s1").style.display  = "none";
+		}
+	</script>
+</head>
+<body>
+<!--     <div class="popup">
+	<div class="l-fixed">
+		<div class="recallpopup">
+			<span class="tooltip_x"></span>
+			<div class="tooltip-inner">
+
+				
+<form  action="calculator.php" method="post" name="feedbacks" id="feedbacks" class="form_callback">
+	<div class="form_form">-->
+						<!--input type="text" class="input-text" placeholder="Title*" -->
+<!--
+			<h2>Заказать<br> обратный звонок</h2>
+			<input maxlength="255" id="name" name="name" type="text" class="input-text" placeholder="Ваше имя" />			<span class="error"></span>
+			<input maxlength="255" id="phone" name="phone" type="text" class="input-text" placeholder="Телефон" />			<span class="error"></span>
+			<div class="bluebutton button" onclick="$(this).closest('form').submit(); return false;"><div><a href="#"><span>Перезвоните нам</span></a></div></div>
+			<div class="loading"></div>
+	</div>
+	<div class="message">Сообщение отправлено</div>
+</form>
+
+	<script>
+
+	</script>
+			</div>
+		</div>
+	</div>
+</div> 
+
+<header class="normal">
+    <div class="l-fixed">
+        <h1 class="logo"><a href="default.htm">LUX</a></h1>
+        <menu>
+            <li><a class="fl" href="LUX">Окна LUX</a>
+			<ul class='menu-static'>
+	
+			<li><a href="LUX/comfort">Свойства LUX</a></li>
+			<li><a href="LUX/technologies">Технологии стекла</a></li>
+			<li><a href="konfigurator/konfigurator-okna">Конфигуратор окна</a></li>
+		</ul>
+			</li>
+		<li class="active"><span class="menu-corn"></span><a class="fl" href="konfigurator/konfigurator-okna">Конфигуратор</a>
+			<ul class='menu-static'>
+	
+			<li class="active"><a href="konfigurator/konfigurator-okna">Конфигуратор окна</a></li>
+		</ul>
+			</li>
+		<li><a class="fl" href="process">Как мы работаем</a>
+			<ul class='menu-static'>
+	
+			<li><a href="process/postanovka-zadachi">1 – Постановка задачи</a></li>
+			<li><a href="process/konsulitaciya">2 – Консультация</a></li>
+			<li><a href="process/reshenie">3 – Решение</a></li>
+			<li><a href="process/proizvodstvo-i-ustanovka">4 – Производство и установка</a></li>
+		</ul>
+			</li>
+		<li><a class="fl" href="about">Почему LUX</a>
+			<ul class='menu-static'>
+	
+			<li><a href="about/why">Преимущества</a></li>
+			<li><a href="about/acg-group">Мы – партнер *** group</a></li>
+			<li><a href="about/proefessionalam">Профессионалам</a></li>
+		</ul>
+			</li>
+		<li><a class="fl" href="showroom">Контакты</a>
+			<ul class='menu-static'>
+	
+			<li><a href="showroom/demo-center">Демо-центр</a></li>
+		</ul>
+			</li>        </menu>
+        <div class="phone">
+            <span>+7 (495) 000-00-00</span>
+            &nbsp;&nbsp;<a class="online-btn" href="#">Обратный звонок</a>
+        </div>
+
+
+    </div>
+	<div class="submenu"></div>
+</header>-->
+	<div class="container">
+		<div class="l-inner">
+
+		<link type="text/css" rel="stylesheet" href="templates/css/calc.css" />
+
+<form id="confform" class="form-ajax form" action="feedbacks/calculator" method="post" name="feedbacks">
+<!--form id="confform" class="form"-->
+			 <input name="submbtnnum" id="submbtnnum" type="hidden" value="0">
+			 <!-- Тип и размер окна -->
+			 <div id="typebar" >
+				 <div class="l-fixed">
+					 <h1>Калькулятор расчёта стоимости окон ПВХ</h1>
+					 <table id="wndtbl" align="center">
+						 <tr>
+							<td id="wndtbl_l" colspan="3" align="left">
+								 <div id="wndtypebar">
+									 <input id="wndtypeinp" name="type" type="hidden" value="11">
+									 <div class="wndtype" id="wndtype_1">
+										 <div class="wndtype_selO"><div class="wndtype_sel"></div></div>
+										 <div class="tooltip bottom tooltip2">
+											 <div class="tooltip-arrow"></div>
+											 <div class="tooltip-inner">
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+											 </div>
+										 </div>
+									 </div>
+									 
+									 <div class="wndtype" id="wndtype_2">
+										 <div class="wndtype_selO"><div class="wndtype_sel"></div></div>
+										 <div class="tooltip bottom tooltip2">
+											 <div class="tooltip-arrow"></div>
+											 <div class="tooltip-inner">
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+											 </div>
+										 </div>
+									 </div>
+									 
+									 <div class="wndtype" id="wndtype_3">
+										 <div class="wndtype_selO"><div class="wndtype_sel"></div></div>
+										 <div class="tooltip bottom tooltip2">
+											 <div class="tooltip-arrow"></div>
+											 <div class="tooltip-inner">
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+											 </div>
+										 </div>
+									 </div>
+									 
+									 <div class="wndtype" id="wndtype_4">
+										 <div class="wndtype_selO"><div class="wndtype_sel"></div></div>
+										 <div class="tooltip bottom tooltip2">
+											 <div class="tooltip-arrow"></div>
+											 <div class="tooltip-inner">
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+											 </div>
+										 </div>
+									 </div>
+									 
+									 <div class="wndtype" id="wndtype_5">
+										 <div class="wndtype_selO"><div class="wndtype_sel"></div></div>
+										 <div class="tooltip bottom tooltip2">
+											 <div class="tooltip-arrow"></div>
+											 <div class="tooltip-inner">
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+											 </div>
+										 </div>
+									 </div>
+									 
+									 <div class="wndtype" id="wndtype_6">
+										 <div class="wndtype_selO"><div class="wndtype_sel"></div></div>
+										 <div class="tooltip bottom tooltip2">
+											 <div class="tooltip-arrow"></div>
+											 <div class="tooltip-inner">
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+												 <span></span>
+											 </div>
+										 </div>
+									 </div>
+								 </div>
+							 </td>
+						 </tr>
+						 <tr>
+							 <td id="wndtbl_c" colspan="2">
+								 <div id="wndtw" class="wndtw11 wndtw1-1">
+									 <div id="wndtw_b"><div id="wndtw_bIn"></div></div>
+									 <div id="wndtw_r"><div id="wndtw_rIn"></div></div>
+								 </div>
+								 <input id="wndsize1" name="width" type="hidden" value="1000">
+								 <input id="wndsize2" name="height" type="hidden" value="1000">
+							 </td>
+							 <td id="wndtbl_r">
+							<!-- Параметры окна -->
+									<div id="wndparsbar" class="noted"><div class="notedIn">
+									 <!-- <h3>УСТАНОВКА:</h3> -->
+									 <!-- <h3>ОПЦИИ:</h3> -->
+									 <div id="getprof" class="tooltip tooltip2">
+		                             <span class="tooltip_x"></span>		                           
+	                                </div>									
+									<div class="spacer"><input id="wndopt_frameProfile" name="profile" type="hidden" value="0">
+									 <span id="frameProfile"><span></span></span> <span id="frameProfile_lbl" class="lbl">&nbsp;Профили</span></div>
+									<div class="spacer">
+										<button type=button value="" onclick="hiddenShow()" id="but" style="width:25px; height:25px;"></button><span>&nbsp; Стеклопакет</span>
+									</div>							
+									<div class="spacer"><input id="wndopt_framePodokonnik" name="Podokonnik" type="hidden" value="0">
+									<span id="framePodokonnik"><span></span></span> <span id="framePodokonnik_lbl" class="lbl">&nbsp;Подоконник</span>
+									<!-- <li class="param" id="pSill"> -->
+                                    <div class="line g-clear-after" id="sillTypes"><select>
+                                    <option>KBE</option>
+                                    <option>ПВХ &quot;Меллер&quot; (Германия)</option>
+                                    </select></div>
+                                   <!-- <div class="line g-clear-after"><!-- input class="value" type="text" /> --> 
+                                   <div id="sillSizes"><select>
+								   <option>100</option>
+								   <option>150</option>
+                                   <option>200</option>
+                                   <option>250</option>
+                                   <option>300</option>
+								   <option>350</option>
+                                   <option>400</option>
+                                   <option>450</option>
+                                   <option>500</option>
+								   <option>550</option>
+                                   <option>600</option>
+								   <option>650</option>
+								   <option>700</option>
+								   <option>750</option>
+                                   <option>800</option>
+                                   </select></div>
+                                   <!-- </div> -->
+                                   </div>
+                                  <!--   </li> -->
+									<div class="spacer"><input id="wndopt_frameOtliv" name="Otliv" type="hidden" value="0">
+									<span id="frameOtliv"><span></span></span> <span id="frameOtliv_lbl" class="lbl">&nbsp;Отливы</span>
+                                 <!-- <li class="param" id="pEbb"> -->
+                                     <!-- <p class="name"><span class="param-name">Отливы</span><noindex><span class="price"><span>0</span> руб. <img class="delete" src="files/icon-close2.gif" alt="" /></span></noindex></p> -->
+                                 <div class="options">
+                                 <div class="line g-clear-after" id="ebbTypes"><select>
+                                 <option>Полиэстр</option>
+                                 <option>Жесть</option>
+                                 </select>
+								 <select>
+                                 <option>белый</option>
+                                 <option>коричневый</option>
+								 <option>зеленый</option>
+								 <option>красный</option>
+								 <option>цинк</option>
+                                 </select>
+                                <div id="ebbSizes">
+									<select>
+									<option>70</option>
+									<option>100</option>
+									<option>130</option>
+									<option>160</option>
+									<option>190</option>
+									<option>220</option>
+									<option>250</option>
+									<option>280</option>
+									<option>310</option>
+									<option>340</option>
+									<option>370</option>
+									<option>400</option>    
+									</select>
+								</div>
+                                </div>
+                                </div>
+								</div>
+                                <!-- </li>					 -->
+								<div class="spacer"><input id="wndopt_frameMoskitka" name="Moskitka" type="hidden" value="0">
+								<span id="frameMoskitka"><span></span></span> <span id="frameMoskitka_lbl" class="lbl">&nbsp;Москитная сетка</span>									
+								<!-- <li class="param" id="pSill"> -->
+                                    <div class="line g-clear-after" id="sillTypes">
+									<select>
+                                    <option>Без москитной сетки</option>
+                                    <option>Белая</option>
+									<option>Коричневая</option>
+                                    </select>
+									</div><!-- </li> -->
+							    </div>
+									<div class="spacer"><input id="wndopt_frameColor" name="laminat" type="hidden" value="0">
+									 <span id="frameColorM"><span></span></span> <span id="frameColorM_lbl" class="lbl">&nbsp;Ламинация</span></div>
+									<div class="spacer">
+										 <select class="select" id="wndopt_houseType" name="house_type">
+											 <option value="">Монтаж</option>										 
+											 <option value="panel">Панельный</option>
+											 <option value="brick">Кирпичный</option>
+											 <option value="monolithic">Другой тип здания</option>
+											 <!-- <option value="stalinType">Сталинский</option>
+											 <option value="cottage">Коттедж</option> -->
+										 </select>
+									</div>
+									<div class="spacer"><input class="input-checkbox" id="wndopt_mosquitoNets" type="checkbox" name="moskitnaya_setka" value="1"/><label for="wndopt_mosquitoNets"> &nbsp;Демонтаж</label></div>
+									<div class="spacer">
+										 <select class="select" id="wndopt_houseType" name="house_type">
+											 <option value="">Откосы</option>										 
+											 <option value="panel">Панельный</option>
+											 <option value="brick">Кирпичный</option>
+											 <option value="monolithic">Другой тип здания</option>
+											 <!-- <option value="stalinType">Сталинский</option>
+											 <option value="cottage">Коттедж</option> -->
+										 </select>
+									</div>
+									<div class="spacer"><input class="input-checkbox" id="wndopt_mosquitoNets" type="checkbox" name="moskitnaya_setka" value="1"/><label for="wndopt_mosquitoNets"> &nbsp;Уборка мусора</label></div>	
+								 </div></div>
+								 <div data-framescnt="4" id="frameProfileBar" class="tooltip tooltip2"><span class="tooltip_x"></span><div class="tooltip-inner"></div></div>
+								 <div data-framescnt="14" id="framePodokonnikBar" class="tooltip tooltip2"><span class="tooltip_x"></span><div class="tooltip-inner"></div></div>
+								 <div data-framescnt="14" id="frameOtlivBar" class="tooltip tooltip2"><span class="tooltip_x"></span><div class="tooltip-inner"></div></div>
+								 <div data-framescnt="14" id="frameMoskitkaBar" class="tooltip tooltip2"><span class="tooltip_x"></span><div class="tooltip-inner"></div></div>
+								 <div data-framescnt="14" id="frameColorBar" class="tooltip tooltip2"><span class="tooltip_x"></span><div class="tooltip-inner"></div></div>
+								 
+								 <!-- <div class="noted" id="lpricebar2"><div class="notedIn">									
+									 <div class="rbutton button"><div><a onclick="f_wnd_finprice();"><span class="i_dimen">Расчитать</span></a></div></div>
+								 </div> </div>-->
+							<!-- _Параметры окна -->
+							 </td>
+						 </tr>
+						 <tr>
+							<td>
+								<div id="sizeerrmess">
+										Слишком большой размер окна. Попробуйте уменьшить высоту или&nbsp;ширину.
+								</div>
+								<div id="sizeokmess">
+										<big>Цена</big>
+										 <!-- <small>с доставкой и установкой</small> -->
+										 <div class="price"><strong id="lconprice2">0</strong><span id="lconprice2add"> Руб.-</span>
+									</div>							
+								</div>
+							</td>
+							<td align="center">
+								<div class="rbutton button"><div><a onclick=""><span class="i_dimen">Оформить заказ</span></a></div></div>		
+							</td>
+							<td align="right">
+								<div class="rbutton button"><div><a onclick="f_wnd_finprice();"><span class="i_dimen">Расчитать</span></a></div></div>		
+							</td>
+							<!-- <div id="minfin-informer-m1Fn-nbu">Загружаем <a href="http://minfin.com.ua/currency/" target="_blank">курсы валют</a> от minfin.com.ua</a></div><script type="text/javascript">var iframe = '<ifra'+'me width="100" height="42" fram'+'eborder="0" src="http://informer.minfin.com.ua/gen/nbu/?color=yellow" vspace="0" scrolling="no" hspace="0" allowtransparency="true"style="width:100px;height:42px;ove'+'rflow:hidden;"></iframe>';var cl = 'minfin-informer-m1Fn-nbu';document.getElementById(cl).innerHTML = iframe; </script><noscript><img src="http://informer.minfin.com.ua/gen/img.png" width="1" height="1" alt="minfin.com.ua: курсы валют" title="Курс валют" border="0" /></noscript>
+<!-- Minfin.com.ua nbu informer 100x42 yellow--> 
+						 </tr>
+					 </table>
+					 <br><br>
+				 </div>
+			 </div>
+			 <!-- _Тип и размер окна -->
+			 <div id="s1" style="display: none;" onclick="hide()">
+			 <!-- Слайдеры -->
+				 <div id="fourcolbar"><div class="l-fixed">
+					 <div class="fourcol">
+						 <div class="b-slider-wrap2">
+							 <div id="b-slider_1" class="b-slider" data-original-title="Даже базовая конфигурация окон LUX<br/>обеспечивает достойный уровень комфорта">
+								 <input name="energy_save" type="hidden" value="1">
+								 <div class="b-slider-ico" id="b-slider-ico_1"></div>
+								 <div class="b-slider-text">Энергосбережение</div>
+								 <div class="b-slider-rul"></div>
+							 </div>
+						 </div>
+					 </div>
+					 <div class="fourcol" style="display: none;">
+						 <div class="b-slider-wrap2">
+							 <div id="b-slider_2" class="b-slider" data-original-title="Даже базовая конфигурация окон LUX<br/>обеспечивает достойный уровень комфорта">
+								 <input name="sun_guard" type="hidden" value="1">
+								 <div class="b-slider-ico" id="b-slider-ico_2"></div>
+								 <div class="b-slider-text">Солнцезащита</div>
+								 <div class="b-slider-rul"></div>
+							 </div>
+						 </div>
+					 </div>
+					 <div class="fourcol">
+						 <div class="b-slider-wrap2">
+							 <div id="b-slider_3" class="b-slider" data-original-title="Даже базовая конфигурация окон LUX<br/>обеспечивает достойный уровень комфорта">
+								 <input name="sound_isolation" type="hidden" value="1">
+								 <div class="b-slider-ico" id="b-slider-ico_3"></div>
+								 <div class="b-slider-text">Шумоизоляция</div>
+								 <div class="b-slider-rul"></div>
+							 </div>
+						 </div>
+					 </div>
+					 <div class="fourcol" style="width:22%;">
+						 <div class="b-slider-wrap2">
+							 <div id="b-slider_4" class="b-slider" data-original-title="Даже базовая конфигурация окон LUX<br/>обеспечивает достойный уровень комфорта">
+								 <input name="safety" type="hidden" value="1">
+								 <div class="b-slider-ico" id="b-slider-ico_4"></div>
+								 <div class="b-slider-text">Безопасность</div>
+								 <div class="b-slider-rul"></div>
+							 </div>
+						 </div>
+					 </div>
+				 </div></div>
+				 <!-- _Слайдеры -->
+				 <!-- Свойства окна -->
+				 <div id="propbar">
+					 <div class="l-fixed">
+						 <h1>Свойства окна LUX</h1>
+						 <br><br><br><br><br>
+						 <!-- Описание сборки -->
+						 <div id="lconfbar">
+							 <h2 id="lconname"></h2>
+							 <!-- <ul class="nav-tabs">
+								 <li class="active" style="width:61px;"><a href="#lcon1" data-toggle="tab">Обзор</a></li>
+								 <li style="width:163px;"><a href="#lcon2" data-toggle="tab">Тех. характеристики</a></li>
+								 <li style="width:104px;"><a href="#lcon3" data-toggle="tab">Применение</a></li>
+							 </ul>
+							 <div class="clear"></div> -->
+							 <div class="tab-content">
+								 <div class="tab-pane active" id="lcon1"></div>
+								 <div class="tab-pane active" id="lcon2"></div>
+								 <div class="tab-pane active" id="lcon3"></div>
+							 </div>
+							 <div class="noted" id="lpricebar" style="display: none;"><div class="notedIn">
+								 <div class="rbutton button"><div><a href="#" onclick="return f_getprof_show(event,this,0);"><span class="i_dimen">Вызвать инженера</span></a></div></div>
+								 <big>Стоимость за 1М<sup>2</sup></big>
+								 <small>с доставкой и установкой</small>
+								 <div class="price"><strong id="lconprice">0</strong> Руб.-</div>
+							 </div></div>
+						 </div>
+						 <!-- _Описание сборки -->
+						 <!-- Макет стекла -->
+						 <div id="lsandbar">
+							 <div id="lsandArr"></div>
+							 <div id="lsand1" class="">
+								 <div class="lsand_h" data-original-title="Стёкла LUX имеют повышенный уровень безопасности, в 3 раза превышающий все существующие аналоги стёкол."></div>
+							 </div>
+							 <div id="lsand2" class="">
+								 <div class="lsand_h" data-original-title="Стёкла LUX имеют повышенный уровень безопасности, в 3 раза превышающий все существующие аналоги стёкол."></div>
+							 </div>
+							 <div id="lsand3" class="">
+								 <div class="lsand_h" data-original-title="Стёкла LUX имеют повышенный уровень безопасности, в 3 раза превышающий все существующие аналоги стёкол."></div>
+							 </div>
+							 <div id="lsand4" class="">
+								 <div class="lsand_h" data-original-title="Стёкла LUX имеют повышенный уровень безопасности, в 3 раза превышающий все существующие аналоги стёкол."></div>
+							 </div>
+							 <div id="lsand5" class="">
+								 <div class="lsand_h" data-original-title="Стёкла LUX имеют повышенный уровень безопасности, в 3 раза превышающий все существующие аналоги стёкол."></div>
+							 </div>
+						 </div>
+						 <!-- _Макет стекла -->
+						 <div class="clear"></div>
+						 <br>
+						<!--  <div style="text-align:center;">
+							 <div class="dbutton button"><a href="#typebar" class="scrollto">Шаг 2 — Размер окна</a></div>
+						 </div> -->
+					 </div>
+				 </div>
+			 <!-- _Свойства окна -->
+			 </div>
+	<div id="getprof" class="tooltip tooltip2">
+		<span class="tooltip_x"></span>
+		<div class="tooltip-inner">
+			<div class="form_form">
+				<h2>Вызвать инженера</h2>
+				<input id="getprof_num" name="getprof_num" type="hidden" value="0" />
+				<input maxlength="255" class="input-text" id="getprof_name" name="name" type="text" placeholder="Ваше имя" />
+				<input maxlength="255" class="input-text" id="getprof_email" name="email" type="text" placeholder="E-mail" />
+				<input maxlength="255" class="input-text" id="getprof_phone" name="phone" type="text" placeholder="Телефон" />
+				<span class="t1">или</span>
+				<span class="phone">+7 (495) 000-00-00</span>
+				<table class="bluebutton button"><tr><td><div><a onclick="$(this).closest('form').submit();return false;" href="#"><span>Отправить</span></a></div></td></tr></table>
+				<div class="loading"></div>
+				<p>Наш менеджер свяжется с вами для<br/>согласования времени визита инженера.</p>
+			</div>
+			<div class="message">Заявка принята!</div>
+		</div>
+	</div>
+</form>
+		</div>
+		<div class="footer-blank"></div>
+	</div>
+	<!-- 
+	<footer>
+		<div class="l-fixed">
+			<menu class="menu_bottom">
+                				<li><a href="legal">Правовая информация</a></li>
+		<li><a href="sitemap">Карта cайта</a></li>			</menu>
+			<address>
+				2012 км МКАД, офисный комплекс «Метрополь», строение 100<br>
+				Телефон: +7 (495) 000-00-00			</address>-->
+			<!--div class="social">
+	<a href="" class="facebook"></a>
+	<a href="" class="twitter"></a>
+</div--><!--			<div class="copy">
+				2014 &copy; Оконный кальклятор<br>
+				Разработка: <a href="http://seocola.ru/">SEOCOLA</a>
+			</div>
+		</div>
+	</footer> -->
+
+
+	<script src="templates/js/all.combined-1.0.0.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+

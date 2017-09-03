@@ -1,0 +1,1023 @@
+/* Стрелки */
+.arr {
+	background: url(../img/arrows.png) 0 0 no-repeat;
+}
+.ar-1111-noise {
+	background-position:0 -0px;
+}
+
+.ar-1111-sec {
+	background-position:0 -236px;
+}
+
+.ar-1111-sun {
+	background-position:0 -472px;
+}
+
+.ar-1111-warm {
+	background-position:0 -708px;
+}
+
+.ar-1114-noise {
+	background-position:0 -944px;
+}
+
+.ar-1114-sec {
+	background-position:0 -1180px;
+}
+
+.ar-1114-sun {
+	background-position:0 -1416px;
+}
+
+.ar-1114-warm {
+	background-position:0 -1652px;
+}
+
+.ar-1143-noise {
+	background-position:0 -1888px;
+}
+
+.ar-1143-sec {
+	background-position:0 -2124px;
+}
+
+.ar-1143-sun {
+	background-position:0 -2360px;
+}
+
+.ar-1143-warm {
+	background-position:0 -2596px;
+}
+
+.ar-1311-noise {
+	background-position:0 -2832px;
+}
+
+.ar-1311-sec {
+	background-position:0 -3068px;
+}
+
+.ar-1311-sun {
+	background-position:0 -3304px;
+}
+
+.ar-1311-warm {
+	background-position:0 -3540px;
+}
+
+.ar-1314-noise {
+	background-position:0 -3776px;
+}
+
+.ar-1314-sec {
+	background-position:0 -4012px;
+}
+
+.ar-1314-sun {
+	background-position:0 -4248px;
+}
+
+.ar-1314-warm {
+	background-position:0 -4484px;
+}
+
+.ar-1333-noise {
+	background-position:0 -4720px;
+}
+
+.ar-1333-sec {
+	background-position:0 -4956px;
+}
+
+.ar-1333-sun {
+	background-position:0 -5192px;
+}
+
+.ar-1333-warm {
+	background-position:0 -5428px;
+}
+
+.ar-2123-noise {
+	background-position:0 -5664px;
+}
+
+.ar-2123-sec {
+	background-position:0 -5900px;
+}
+
+.ar-2123-sun {
+	background-position:0 -6136px;
+}
+
+.ar-2123-warm {
+	background-position:0 -6372px;
+}
+
+.ar-2133-noise {
+	background-position:0 -6608px;
+}
+
+.ar-2133-sec {
+	background-position:0 -6844px;
+}
+
+.ar-2133-sun {
+	background-position:0 -7080px;
+}
+
+.ar-2133-warm {
+	background-position:0 -7316px;
+}
+
+.ar-2243-noise {
+	background-position:0 -7552px;
+}
+
+.ar-2243-sec {
+	background-position:0 -7788px;
+}
+
+.ar-2243-sun {
+	background-position:0 -8024px;
+}
+
+.ar-2243-warm {
+	background-position:0 -8260px;
+}
+
+.ar-2313-noise {
+	background-position:0 -8496px;
+}
+
+.ar-2313-sec {
+	background-position:0 -8732px;
+}
+
+.ar-2313-sun {
+	background-position:0 -8968px;
+}
+
+.ar-2313-warm {
+	background-position:0 -9204px;
+}
+
+.ar-2333-noise {
+	background-position:0 -9440px;
+}
+
+.ar-2333-sec {
+	background-position:0 -9676px;
+}
+
+.ar-2333-sun {
+	background-position:0 -9912px;
+}
+
+.ar-2333-warm {
+	background-position:0 -10148px;
+}
+
+.ar-2443-noise {
+	background-position:0 -10384px;
+}
+
+.ar-2443-sec {
+	background-position:0 -10620px;
+}
+
+.ar-2443-sun {
+	background-position:0 -10856px;
+}
+
+.ar-2443-warm {
+	background-position:0 -11092px;
+}
+
+.ar-3222-noise {
+	background-position:0 -11328px;
+}
+
+.ar-3222-sec {
+	background-position:0 -11564px;
+}
+
+.ar-3222-sun {
+	background-position:0 -11800px;
+}
+
+.ar-3222-warm {
+	background-position:0 -12036px;
+}
+
+.ar-3224-noise {
+	background-position:0 -12272px;
+}
+
+.ar-3224-sec {
+	background-position:0 -12508px;
+}
+
+.ar-3224-sun {
+	background-position:0 -12744px;
+}
+
+.ar-3224-warm {
+	background-position:0 -12980px;
+}
+
+.ar-3233-noise {
+	background-position:0 -13216px;
+}
+
+.ar-3233-sec {
+	background-position:0 -13452px;
+}
+
+.ar-3233-sun {
+	background-position:0 -13688px;
+}
+
+.ar-3233-warm {
+	background-position:0 -13924px;
+}
+
+.ar-3243-noise {
+	background-position:0 -14160px;
+}
+
+.ar-3243-sec {
+	background-position:0 -14396px;
+}
+
+.ar-3243-sun {
+	background-position:0 -14632px;
+}
+
+.ar-3243-warm {
+	background-position:0 -14868px;
+}
+
+.ar-3323-noise {
+	background-position:0 -15104px;
+}
+
+.ar-3323-sec {
+	background-position:0 -15340px;
+}
+
+.ar-3323-sun {
+	background-position:0 -15576px;
+}
+
+.ar-3323-warm {
+	background-position:0 -15812px;
+}
+
+.ar-3411-sun {
+	background-position:0 -16048px;
+}
+
+.ar-3411-noise {
+	background-position:0 -16284px;
+}
+
+.ar-3411-sec {
+	background-position:0 -16520px;
+}
+
+.ar-3411-warm {
+	background-position:0 -16756px;
+}
+
+.ar-3421-noise {
+	background-position:0 -16992px;
+}
+
+.ar-3421-sec {
+	background-position:0 -17228px;
+}
+
+.ar-3421-sun {
+	background-position:0 -17464px;
+}
+
+.ar-3421-warm {
+	background-position:0 -17700px;
+}
+
+.ar-3422-noise {
+	background-position:0 -17936px;
+}
+
+.ar-3422-sec {
+	background-position:0 -18172px;
+}
+
+.ar-3422-sun {
+	background-position:0 -18408px;
+}
+
+.ar-3422-warm {
+	background-position:0 -18644px;
+}
+
+.ar-3424-noise {
+	background-position:0 -18880px;
+}
+
+.ar-3424-sec {
+	background-position:0 -19116px;
+}
+
+.ar-3424-sun {
+	background-position:0 -19352px;
+}
+
+.ar-3424-warm {
+	background-position:0 -19588px;
+}
+
+.ar-3433-noise {
+	background-position:0 -19824px;
+}
+
+.ar-3433-sec {
+	background-position:0 -20060px;
+}
+
+.ar-3433-sun {
+	background-position:0 -20296px;
+}
+
+.ar-3433-warm {
+	background-position:0 -20532px;
+}
+
+.ar-3443-noise {
+	background-position:0 -20768px;
+}
+
+.ar-3443-sec {
+	background-position:0 -21004px;
+}
+
+.ar-3443-sun {
+	background-position:0 -21240px;
+}
+
+.ar-3443-warm {
+	background-position:0 -21476px;
+}
+
+.ar-4211-noise {
+	background-position:0 -21712px;
+}
+
+.ar-4211-sec {
+	background-position:0 -21948px;
+}
+
+.ar-4211-sun {
+	background-position:0 -22184px;
+}
+
+.ar-4211-warm {
+	background-position:0 -22420px;
+}
+
+.ar-4221-noise {
+	background-position:0 -22656px;
+}
+
+.ar-4221-sec {
+	background-position:0 -22892px;
+}
+
+.ar-4221-sun {
+	background-position:0 -23128px;
+}
+
+.ar-4221-warm {
+	background-position:0 -23364px;
+}
+
+.ar-4243-noise {
+	background-position:0 -23600px;
+}
+
+.ar-4243-sec {
+	background-position:0 -23836px;
+}
+
+.ar-4243-sun {
+	background-position:0 -24072px;
+}
+
+.ar-4243-warm {
+	background-position:0 -24308px;
+}
+
+.ar-4421-noise {
+	background-position:0 -24544px;
+}
+
+.ar-4421-sec {
+	background-position:0 -24780px;
+}
+
+.ar-4421-sun {
+	background-position:0 -25016px;
+}
+
+.ar-4421-warm {
+	background-position:0 -25252px;
+}
+
+.ar-4423-noise {
+	background-position:0 -25488px;
+}
+
+.ar-4423-sec {
+	background-position:0 -25724px;
+}
+
+.ar-4423-sun {
+	background-position:0 -25960px;
+}
+
+.ar-4423-warm {
+	background-position:0 -26196px;
+}
+
+.ar-4433-noise {
+	background-position:0 -26432px;
+}
+
+.ar-4433-sec {
+	background-position:0 -26668px;
+}
+
+.ar-4433-sun {
+	background-position:0 -26904px;
+}
+
+.ar-4433-warm {
+	background-position:0 -27140px;
+}
+
+
+/* Стёкла */
+.layer {
+	background: url(../img/sandwich-sprite.png) 0 0 no-repeat;
+}
+/* Borders*/
+.l-12-left, .l-12-right  {
+	background-position:  0 -8792px;
+	height: 304px;
+	width: 179px;
+}
+.l-14-left, .l-14-right  {
+	background-position: 0 -9110px;
+	height: 304px;
+	width: 189px;
+}
+.l-16-left, .l-16-right   {
+	background-position: 0 -9428px;
+	height: 304px;
+	width: 199px;
+}
+.l-18-left, .l-18-right {
+	background-position: 0 -9746px;
+	height: 304px;
+	width: 207px;
+}
+/*Glasses*/
+.l-4-left, .l-4-right {
+	background-position: 0 -560px;
+	height: 290px;
+	width: 139px;
+}
+.l-6-left, .l-6-right {
+	background-position: 0 -865px;
+	height: 290px;
+	width: 149px;
+}
+.l-4-Stopray-Neo-left {
+	background-position: 0 -1170px;
+	height: 290px;
+	width: 143px;
+}
+.l-4-Stopray-Neo-right {
+	background-position: 0 -1475px;
+	height: 290px;
+	width: 143px;
+}
+.l-6-Stopray-Neo-left {
+	background-position: 0 -1780px;
+	height: 290px;
+	width: 153px;
+}
+.l-6-Stopray-Neo-right {
+	background-position: 0 -2085px;
+	height: 290px;
+	width: 153px;
+}
+.l-33-2-Stopray-Neo-Stratophone-left, .l-33-2-Stratophone-Stopray-Neo-left {
+	background-position: 0 -2390px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-Stopray-Neo-Stratophone-right, .l-33-2-Stratophone-Stopray-Neo-right {
+	background-position: 0 -2695px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-left, .l-33-2-right {
+	background-position: 0 -3000px;
+	height: 290px;
+	width: 160px;
+}
+.l-34-4-left, .l-34-4-right {
+	background-position: 0 -3305px;
+	height: 290px;
+	width: 175px;
+}
+.l-33-2-Stopray-Neo-left {
+	background-position: 0 -3610px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-Stopray-Neo-right {
+	background-position: 0 -3915px;
+	height: 290px;
+	width: 164px;
+}
+.l-34-4-Stopray-Neo-left {
+	background-position: 0 -4220px;
+	height: 290px;
+	width: 179px;
+}
+.l-34-4-Stopray-Neo-right {
+	background-position: 0 -4525px;
+	height: 290px;
+	width: 179px;
+}
+.l-33-2-Top-N-left {
+	background-position: 0 -4830px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-Top-N-right {
+	background-position: 0 -5135px;
+	height: 290px;
+	width: 164px;
+}
+.l-34-4-Top-N-left {
+	background-position: 0 -5440px;
+	height: 290px;
+	width: 179px;
+}
+.l-34-4-Top-N-right {
+	background-position: 0 -5745px;
+	height: 290px;
+	width: 179px;
+}
+.l-33-2-Stratophone-left, .l-33-2-Stratophone-right {
+	background-position: 0 -6050px;
+	height: 290px;
+	width: 160px;
+}
+.l-33-2-Stratophone-Top-N-left, .l-33-2-Top-N-Stratophone-left {
+	background-position:  0 -6355px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-Stratophone-Top-N-right, .l-33-2-Top-N-Stratophone-right {
+	background-position: 0 -6660px;
+	height: 290px;
+	width: 164px;
+}
+.l-4-Top-N-left {
+	background-position: 0 -6965px;
+	height: 290px;
+	width: 143px;
+}
+.l-4-Top-N-right {
+	background-position: 0 -7270px;
+	height: 290px;
+	width: 143px;
+}
+.l-6-Top-N-left {
+	background-position: 0 -7575px;
+	height: 290px;
+	width: 153px;
+}
+.l-6-Top-N-right {
+	background-position: 0 -7880px;
+	height: 290px;
+	width: 153px;
+}
+.l-43-4-Stopray-Neo-left {
+	background-position: 0 -8184px;
+	height: 290px;
+	width: 179px;
+}
+.l-43-4-Stopray-Neo-right {
+	background-position: 0 -8488px;
+	height: 290px;
+	width: 179px;
+}
+.l-33-1-left {
+	background-position: 0 -8488px;
+	height: 290px;
+	width: 179px;
+}
+
+.l-33-1-right {
+	background-position: 0 -10062px;
+	height: 290px;
+	width: 179px;
+}
+
+.l-44-1-left {
+	background-position: 0 -10366px;
+	height: 290px;
+	width: 179px;
+}
+
+.l-44-1-right {
+	background-position: 0 -10366px;
+	height: 290px;
+	width: 179px;
+}
+
+.l-33-1-Top-N-left {
+	background-position: 0 -10670px;
+	height: 290px;
+	width: 179px;
+}
+.l-33-1-Top-N-right {
+	background-position: 0 -10947px;
+	height: 290px;
+	width: 179px;
+}
+.l-44-1-Top-N-left {
+	background-position: 0 -11278px;
+	height: 290px;
+	width: 179px;
+}
+.l-44-1-Top-N-right {
+	background-position: 0 -11582px;
+	height: 290px;
+	width: 179px;
+}
+
+.wndtw1
+{
+	width:437px;
+	height:395px;
+	background: url(../img/windows/1-1.png) 0 0 no-repeat;
+}
+.wndtw1-2
+{
+	background-image: url(../img/windows/1-2.png)
+}
+.wndtw1-3
+{
+	background-image: url(../img/windows/1-3.png)
+}
+.wndtw1-4
+{
+	background-image: url(../img/windows/1-4.png)
+}
+.wndtw1-5
+{
+	background-image: url(../img/windows/1-5.png)
+}
+.wndtw1-6
+{
+	background-image: url(../img/windows/1-6.png)
+}
+.wndtw1-7
+{
+    background-position:0 45px;
+    width:400px;
+	height:450px;
+	background-image: url(../img/windows/1-7.png)
+}
+.wndtw1-8
+{
+    background-position:0 45px;
+    width:400px;
+	height:450px;
+	background-image: url(../img/windows/1-8.png)
+}
+.wndtw1-9
+{
+    background-position:0 45px;
+    width:400px;
+	height:450px;
+	background-image: url(../img/windows/1-9.png)
+}
+.wndtw1-10
+{
+    background-position:0 45px;
+    width:400px;
+	height:450px;
+	background-image: url(../img/windows/1-10.png)
+}
+.wndtw1-11
+{ 
+    background-position:0 45px;
+    width:400px;
+	height:450px;
+	background-image: url(../img/windows/1-11.png)
+}
+.wndtw1-12
+{
+    background-position:0 45px;
+    width:400px;
+	height:450px;
+	background-image: url(../img/windows/1-12.png)
+}
+.wndtw2
+{
+	width:437px;
+	height:395px;
+	background: url(../img/windows/2-1.png) 0 0 no-repeat;
+}
+.wndtw2-2
+{
+	background-image: url(../img/windows/2-2.png)
+}
+.wndtw2-3
+{
+	background-image: url(../img/windows/2-3.png)
+}
+.wndtw2-4
+{
+	background-image: url(../img/windows/2-4.png)
+}
+.wndtw2-5
+{
+	background-image: url(../img/windows/2-5.png)
+}
+.wndtw2-6
+{
+	background-image: url(../img/windows/2-6.png)
+}
+.wndtw2-7
+{
+	background-image: url(../img/windows/2-7.png)
+}
+.wndtw2-8
+{
+	background-image: url(../img/windows/2-8.png)
+}
+.wndtw2-9
+{
+	background-image: url(../img/windows/2-9.png)
+}
+.wndtw2-10
+{
+	background-image: url(../img/windows/2-10.png)
+}
+
+.wndtw2-11
+{
+	background-image: url(../img/windows/2-11.png)
+}
+
+.wndtw2-12
+{
+	background-image: url(../img/windows/2-12.png)
+}
+
+.wndtw2-13
+{
+	background-image: url(../img/windows/2-13.png)
+}
+
+.wndtw2-14
+{
+	background-image: url(../img/windows/2-14.png)
+}
+
+.wndtw3
+{
+	width:488px;
+	height:395px;
+	background: url(../img/windows/3-1.png) 0 0 no-repeat;
+}
+.wndtw3-2
+{
+	background-image: url(../img/windows/3-2.png)
+}
+.wndtw3-3
+{
+	background-image: url(../img/windows/3-3.png)
+}
+.wndtw3-4
+{
+	background-image: url(../img/windows/3-4.png)
+}
+.wndtw3-5
+{
+	background-image: url(../img/windows/3-5.png)
+}
+.wndtw3-6
+{
+	background-image: url(../img/windows/3-6.png)
+}
+.wndtw3-7
+{
+	background-image: url(../img/windows/3-7.png)
+}
+.wndtw3-8
+{
+	background-image: url(../img/windows/3-8.png)
+}
+.wndtw3-9
+{
+	background-image: url(../img/windows/3-9.png)
+}
+.wndtw3-10
+{
+	background-image: url(../img/windows/3-10.png)
+}
+.wndtw3-11
+{
+	background-image: url(../img/windows/3-11.png)
+}
+.wndtw4
+{
+	width:767px;
+	height:395px;
+	background: url(../img/windows/4-1.png) 0 0 no-repeat;
+}
+.wndtw4-2
+{
+	background-image: url(../img/windows/4-2.png)
+}
+.wndtw4-3
+{
+	background-image: url(../img/windows/4-3.png)
+}
+.wndtw4-4
+{
+	background-image: url(../img/windows/4-4.png)
+}
+.wndtw4-5
+{
+	background-image: url(../img/windows/4-5.png)
+}
+.wndtw4-6
+{
+	background-image: url(../img/windows/4-6.png)
+}
+.wndtw4-7
+{
+	background-image: url(../img/windows/4-7.png)
+}
+.wndtw4-8
+{
+	background-image: url(../img/windows/4-8.png)
+}
+.wndtw4-9
+{
+	background-image: url(../img/windows/4-9.png)
+}
+.wndtw4-10
+{
+	background-image: url(../img/windows/4-10.png)
+}
+.wndtw4-11
+{
+	background-image: url(../img/windows/4-11.png)
+}
+.wndtw4-12
+{
+	background-image: url(../img/windows/4-12.png)
+}
+.wndtw4-13
+{
+	background-image: url(../img/windows/4-13.png)
+}
+.wndtw4-14
+{
+	background-image: url(../img/windows/4-14.png)
+}
+.wndtw5
+{
+	width:352px;
+	height:361px;
+	background: url(../img/windows/5-1.png) 0 0 no-repeat;
+}
+.wndtw5-1
+{
+	width:394px;
+	height:361px;
+	background-image: url(../img/windows/5-1.png)
+}
+.wndtw5-2
+{
+	background-image: url(../img/windows/5-2.png)
+}
+.wndtw5-3
+{
+	background-image: url(../img/windows/5-3.png)
+}
+.wndtw5-4
+{
+	background-image: url(../img/windows/5-4.png)
+}
+.wndtw5-5
+{
+    width:494px;
+	height:361px;
+	background-image: url(../img/windows/5-5.png)
+}
+.wndtw5-6
+{
+    width:514px;
+	height:361px;
+	background-image: url(../img/windows/5-6.png)
+}
+.wndtw5-7
+{
+    width:524px;
+	height:381px;
+	background-image: url(../img/windows/5-7.png)
+}
+.wndtw5-8
+{
+    width:527px;
+	height:381px;
+	background-image: url(../img/windows/5-8.png)
+}
+.wndtw5-9
+{
+    width:564px;
+	height:381px;
+	background-image: url(../img/windows/5-9.png)
+}
+.wndtw5-10
+{
+    width:494px;
+	height:381px;
+	background-image: url(../img/windows/5-10.png)
+}
+.wndtw6
+{
+	width:168px;
+	height:394px;
+	background-image: url(../img/windows/6-1.png)
+}
+.wndtw6-2
+{
+	background-image: url(../img/windows/6-2.png)
+}
+.wndtw6-3
+{
+    width:268px;
+	height:384px;
+	background-image: url(../img/windows/6-3.png)
+}
+.wndtw6-4
+{
+	width:285px;
+	height:375px;
+	background-image: url(../img/windows/6-4.png)
+}
+.wndtw6-5
+{
+	width:277px;
+	height:393px;
+	background-image: url(../img/windows/6-5.png)
+}
+
+.wndtw6-6
+{
+	width:153px;
+	height:393px;
+	background-image: url(../img/windows/6-6.png)
+}
+.wndtw6-7
+{
+	width:373px;
+	height:393px;
+	background-image: url(../img/windows/6-7.png)
+}
+.wndtw6-8
+{
+	width:280px;
+	height:393px;
+	background-image: url(../img/windows/6-8.png)
+}
+.wndtw6-9
+{
+	width:275px;
+	height:393px;
+	background-image: url(../img/windows/6-9.png)
+}
